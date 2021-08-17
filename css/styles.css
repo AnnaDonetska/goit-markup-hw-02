@@ -80,7 +80,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:hover {
-  background-color: #188ce8;
+  background-color: var(--navigation-color-act);
 }
 /* features */
 .features-title {
@@ -144,7 +144,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #ffffff;
+  color: var(--hero-txt-color);
 }
 .half-logo-text {
   color: var(--firs-logo-color);
@@ -156,7 +156,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--hero-txt-color);
 }
 .footer-link {
   font-family: Roboto;
@@ -190,8 +190,8 @@ body {
 }
 .filter-btn:hover,
 .filter-btn:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--hero-txt-color);
+  background-color: var(--navigation-color-act);
 }
 .prodjects-boxes-title {
   font-style: normal;
